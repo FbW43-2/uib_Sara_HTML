@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: cornsilk;
+}
+.outer-square {
+  width: 460px;
+  height: 460px;
+  background-color: sandybrown;
+  border: solid 10px black;
+}
