@@ -3,9 +3,23 @@ body {
   width: 100%;
   background-color: cornsilk;
 }
+.thick-border {
+  border: solid 10px black;
+}
+.color-primary {
+  background-color: darkkhaki;
+}
 .outer-square {
   width: 460px;
   height: 460px;
   background-color: sandybrown;
-  border: solid 10px black;
+}
+.inner-square {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+.inner-inner-square {
+  width: 120px;
+  height: 120px;
 }
