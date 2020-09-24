@@ -27,9 +27,19 @@ body {
 .inner-inner-square {
   width: 120px;
   height: 120px;
+  background-image: url("/img/gighy.gif");
+  background-size: cover;
+  background-position: center;
 }
+/* Version 1 for centering using FlexBox
+this centering is apllied to the direct child*/
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/*version 2 for centering only horizontaly
+this centering is apllied to the element that has this class */
+.center-v2 {
+  margin: auto;
 }
