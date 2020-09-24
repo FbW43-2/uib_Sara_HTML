@@ -33,7 +33,7 @@ body {
 }
 /* Version 1 for centering using FlexBox
 this centering is apllied to the direct child*/
-.center {
+.center-v1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,4 +42,33 @@ this centering is apllied to the direct child*/
 this centering is apllied to the element that has this class */
 .center-v2 {
   margin: auto;
+}
+.main-container {
+  width: 820px;
+  height: 290px;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meme-container {
+  width: 230px;
+  height: 230px;
+}
+.border-rounded-1 {
+  border: solid 10px black;
+  border-radius: 20%;
+}
+#meme-square-1 {
+}
+
+#meme-square-2 {
+  background-image: url("/img/gighy.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#meme-square-3 {
 }
