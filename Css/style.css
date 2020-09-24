@@ -8,11 +8,11 @@ body {
 }
 .thick-border-2 {
   border-width: 10px;
-  border-style: solid;
+  border-style: double;
   border-color: black;
 }
 .color-primary {
-  background-color: darkkhaki;
+  background-color: gold;
 }
 .outer-square {
   width: 460px;
@@ -27,4 +27,9 @@ body {
 .inner-inner-square {
   width: 120px;
   height: 120px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
