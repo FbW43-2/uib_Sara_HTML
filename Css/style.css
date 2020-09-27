@@ -12,7 +12,7 @@ body {
   border-color: black;
 }
 .color-primary {
-  background-color: gold;
+  background-color: lightblue;
 }
 .outer-square {
   width: 460px;
@@ -35,6 +35,7 @@ body {
 this centering is apllied to the direct child*/
 .center-v1 {
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
 }
@@ -44,9 +45,9 @@ this centering is apllied to the element that has this class */
   margin: auto;
 }
 .main-container {
-  width: 820px;
+  width: 1100px;
   height: 290px;
-  background-color: white;
+  background-color: khaki;
 
   display: flex;
   justify-content: space-around;
@@ -61,7 +62,22 @@ this centering is apllied to the element that has this class */
   border: solid 10px black;
   border-radius: 20%;
 }
+.border-rounded-2 {
+  border: solid 20px black;
+  border-radius: 20%;
+}
+.border-rounded-3 {
+  border: solid 30px black;
+  border-radius: 20%;
+}
+.border-rounded-4 {
+  border: solid 40px black;
+  border-radius: 20%;
+}
 #meme-square-1 {
+  background-image: url("/img/gighy-2.gif");
+  background-size: cover;
+  background-position: center;
 }
 
 #meme-square-2 {
@@ -71,4 +87,12 @@ this centering is apllied to the element that has this class */
 }
 
 #meme-square-3 {
+  background-image: url("/img/giphy-3.gif");
+  background-size: cover;
+  background-position-x: center;
+}
+#meme-square-4 {
+  background-image: url(/img/giphy-4.gif);
+  background-size: cover;
+  background-position-x: center;
 }
